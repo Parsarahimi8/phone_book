@@ -1,2 +1,5 @@
 fastapi
+sqlalchemy
+sqlite
+pydantic
 uvicorn
