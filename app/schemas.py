@@ -11,3 +11,7 @@ class PersonOut(PersonCreate):
 
     class Config:
         orm_mode = True  # This allows the Pydantic model to work with SQLAlchemy models
+
+class ContactDetailResponse(BaseModel):
+    contact: PersonOut
+    actions: dict

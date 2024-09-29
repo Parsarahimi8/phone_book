@@ -1,0 +1,10 @@
+@startuml
+
+
+phonebook <- contacts :get all contacts
+phonebook <- search :search all contacts
+phonebook <- create : create contact
+contacts <- update : update your contact
+contacts <- delete : delete your contact
+
+@enduml
