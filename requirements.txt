@@ -2,3 +2,5 @@ fastapi
 sqlalchemy
 pydantic
 uvicorn
+behave
+requests
